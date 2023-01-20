@@ -1,0 +1,15 @@
+h1 {
+    color: black;
+    font-size: 50px;
+    display: flex;
+    font-style: normal;
+    
+    
+}
+
+.header {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
