@@ -32,14 +32,3 @@ button {
     color: white;
     font-size: 35px;
 }
-
-ul {
-    padding: 0;
-    list-style: none;
-    margin-bottom: 0px;
-  }
-  
-  li {
-    width: 450px;
-    text-align: left;
-  }
