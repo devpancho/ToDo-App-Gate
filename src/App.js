@@ -12,11 +12,17 @@ function App() {
     
     <div className="App">
 
+
+
+
       <Header/>
       <AddTodo
         todos={todos}
         setTodos={setTodos}
         />
+
+        {todos.map((todo) => 
+        <div>{todo.text}</div>)}    
 
 
       

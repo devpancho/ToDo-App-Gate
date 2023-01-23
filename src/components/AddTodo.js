@@ -12,7 +12,7 @@ const AddTodo = ({todos, setTodos}) => {
         text: todo,
         completed: false,
     }
-    setTodos((previous) => [...previous].concat(newTodo));
+    setTodos((previous) => [...previous, (newTodo)]);
     setTodo("") 
    }
 
@@ -23,9 +23,7 @@ const AddTodo = ({todos, setTodos}) => {
             <button className='add-button'>+</button>
         </form>
         
-         {todos.map((todo) => 
-        <div>{todo.text}</div>)}
-
+    
         </>
         
     );
