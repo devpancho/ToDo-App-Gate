@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React from 'react';
 import './App.css';
 import Header from './components/header/Header';
 import AddTodo from './components/AddTodo'
@@ -6,7 +6,7 @@ import AddTodo from './components/AddTodo'
 
 function App() {
   
-  const [todos, setTodos] = useState([]);
+  
   return (
     
     <div className="App">
